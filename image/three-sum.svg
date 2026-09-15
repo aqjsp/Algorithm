@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="220" rx="12" fill="#fafafa"/>
+  <rect width="900" height="220" rx="12" fill="none" stroke="#e0e0e0"/>
+  <text x="450" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a2e">三数之和：排序后固定 i，左右夹逼</text>
+  <g font-size="14" font-weight="bold" text-anchor="middle">
+    <rect x="70" y="80" width="70" height="48" rx="8" fill="#eceff1" stroke="#90a4ae"/><text x="105" y="110" fill="#546e7a">-4</text>
+    <rect x="160" y="80" width="70" height="48" rx="8" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/><text x="195" y="110" fill="#0d47a1">-1</text>
+    <rect x="250" y="80" width="70" height="48" rx="8" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2"/><text x="285" y="110" fill="#1b5e20">-1</text>
+    <rect x="340" y="80" width="70" height="48" rx="8" fill="#eceff1" stroke="#90a4ae"/><text x="375" y="110" fill="#546e7a">0</text>
+    <rect x="430" y="80" width="70" height="48" rx="8" fill="#eceff1" stroke="#90a4ae"/><text x="465" y="110" fill="#546e7a">1</text>
+    <rect x="520" y="80" width="70" height="48" rx="8" fill="#ffe0b2" stroke="#e65100" stroke-width="2"/><text x="555" y="110" fill="#e65100">2</text>
+  </g>
+  <text x="195" y="154" text-anchor="middle" font-size="12" fill="#1565c0">i 固定</text>
+  <text x="285" y="154" text-anchor="middle" font-size="12" fill="#2e7d32">L</text>
+  <text x="555" y="154" text-anchor="middle" font-size="12" fill="#e65100">R</text>
+  <text x="450" y="186" text-anchor="middle" font-size="13" fill="#37474f">-1 + -1 + 2 = 0，收一组；L、R 跳过重复再夹</text>
+  <text x="450" y="208" text-anchor="middle" font-size="12" fill="#546e7a">排序后 [-4,-1,-1,0,1,2]</text>
+</svg>

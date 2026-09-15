@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="220" rx="12" fill="#fafafa"/>
+  <rect width="900" height="220" rx="12" fill="none" stroke="#e0e0e0"/>
+  <text x="450" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a2e">滑动窗口：右指针扩，撞见重复就把左指针推过它</text>
+  <g font-size="16" font-weight="bold" text-anchor="middle" font-family="ui-monospace, monospace">
+    <rect x="80" y="70" width="56" height="48" rx="8" fill="#c8e6c9" stroke="#2e7d32"/><text x="108" y="100" fill="#1b5e20">a</text>
+    <rect x="148" y="70" width="56" height="48" rx="8" fill="#c8e6c9" stroke="#2e7d32"/><text x="176" y="100" fill="#1b5e20">b</text>
+    <rect x="216" y="70" width="56" height="48" rx="8" fill="#fff9c4" stroke="#f9a825" stroke-width="2"/><text x="244" y="100" fill="#f57f17">c</text>
+    <rect x="284" y="70" width="56" height="48" rx="8" fill="#ffcdd2" stroke="#c62828"/><text x="312" y="100" fill="#b71c1c">a</text>
+    <rect x="352" y="70" width="56" height="48" rx="8" fill="#eceff1" stroke="#90a4ae"/><text x="380" y="100" fill="#546e7a">b</text>
+    <rect x="420" y="70" width="56" height="48" rx="8" fill="#eceff1" stroke="#90a4ae"/><text x="448" y="100" fill="#546e7a">c</text>
+    <rect x="488" y="70" width="56" height="48" rx="8" fill="#eceff1" stroke="#90a4ae"/><text x="516" y="100" fill="#546e7a">b</text>
+    <rect x="556" y="70" width="56" height="48" rx="8" fill="#eceff1" stroke="#90a4ae"/><text x="584" y="100" fill="#546e7a">b</text>
+  </g>
+  <text x="108" y="148" text-anchor="middle" font-size="12" fill="#2e7d32">L</text>
+  <text x="312" y="148" text-anchor="middle" font-size="12" fill="#c62828">R 撞到第二个 a</text>
+  <text x="450" y="186" text-anchor="middle" font-size="13" fill="#37474f">窗口 "abc" 长度 3；L 推到第一个 a 的下一位，继续扩</text>
+  <text x="450" y="208" text-anchor="middle" font-size="12" fill="#546e7a">s = "abcabcbb"</text>
+</svg>

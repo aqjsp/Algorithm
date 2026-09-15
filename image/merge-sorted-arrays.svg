@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="280" rx="12" fill="#fafafa"/>
+  <rect width="900" height="280" rx="12" fill="none" stroke="#e0e0e0"/>
+  <text x="450" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a2e">从后往前合：p1 / p2 比大小，大的写入 p</text>
+  <text x="70" y="70" font-size="13" fill="#1565c0" font-weight="bold">nums1  m=3</text>
+  <g font-size="14" font-weight="bold" text-anchor="middle">
+    <rect x="40" y="84" width="52" height="40" rx="6" fill="#e3f2fd" stroke="#1565c0"/><text x="66" y="110" fill="#0d47a1">1</text>
+    <rect x="96" y="84" width="52" height="40" rx="6" fill="#e3f2fd" stroke="#1565c0"/><text x="122" y="110" fill="#0d47a1">2</text>
+    <rect x="152" y="84" width="52" height="40" rx="6" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/><text x="178" y="110" fill="#0d47a1">3</text>
+    <rect x="208" y="84" width="52" height="40" rx="6" fill="#eceff1" stroke="#90a4ae"/><text x="234" y="110" fill="#78909c">0</text>
+    <rect x="264" y="84" width="52" height="40" rx="6" fill="#eceff1" stroke="#90a4ae"/><text x="290" y="110" fill="#78909c">0</text>
+    <rect x="320" y="84" width="52" height="40" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="2"/><text x="346" y="110" fill="#e65100">0</text>
+  </g>
+  <text x="178" y="148" text-anchor="middle" font-size="12" fill="#1565c0">p1</text>
+  <text x="346" y="148" text-anchor="middle" font-size="12" fill="#e65100">p</text>
+  <text x="520" y="70" font-size="13" fill="#2e7d32" font-weight="bold">nums2  n=3</text>
+  <g font-size="14" font-weight="bold" text-anchor="middle">
+    <rect x="500" y="84" width="52" height="40" rx="6" fill="#e8f5e9" stroke="#2e7d32"/><text x="526" y="110" fill="#1b5e20">2</text>
+    <rect x="556" y="84" width="52" height="40" rx="6" fill="#e8f5e9" stroke="#2e7d32"/><text x="582" y="110" fill="#1b5e20">5</text>
+    <rect x="612" y="84" width="52" height="40" rx="6" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2"/><text x="638" y="110" fill="#1b5e20">6</text>
+  </g>
+  <text x="638" y="148" text-anchor="middle" font-size="12" fill="#2e7d32">p2</text>
+  <text x="450" y="188" text-anchor="middle" font-size="13" fill="#37474f">3 &lt; 6，把 6 写到 nums1 末尾，p2、p 左移</text>
+  <g font-size="14" font-weight="bold" text-anchor="middle">
+    <rect x="250" y="208" width="52" height="40" rx="6" fill="#e3f2fd" stroke="#1565c0"/><text x="276" y="234" fill="#0d47a1">1</text>
+    <rect x="306" y="208" width="52" height="40" rx="6" fill="#e3f2fd" stroke="#1565c0"/><text x="332" y="234" fill="#0d47a1">2</text>
+    <rect x="362" y="208" width="52" height="40" rx="6" fill="#e3f2fd" stroke="#1565c0"/><text x="388" y="234" fill="#0d47a1">3</text>
+    <rect x="418" y="208" width="52" height="40" rx="6" fill="#eceff1" stroke="#90a4ae"/><text x="444" y="234" fill="#78909c">0</text>
+    <rect x="474" y="208" width="52" height="40" rx="6" fill="#eceff1" stroke="#90a4ae"/><text x="500" y="234" fill="#78909c">0</text>
+    <rect x="530" y="208" width="52" height="40" rx="6" fill="#c8e6c9" stroke="#2e7d32"/><text x="556" y="234" fill="#1b5e20">6</text>
+  </g>
+</svg>

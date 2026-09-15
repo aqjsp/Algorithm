@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="860" height="200" rx="12" fill="#fafafa"/>
+  <rect width="860" height="200" rx="12" fill="none" stroke="#e0e0e0"/>
+  <text x="430" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a2e">反转链表：prev / cur，每次把 next 拧过来</text>
+  <g font-size="14" font-weight="bold" text-anchor="middle">
+    <rect x="40" y="70" width="70" height="44" rx="8" fill="#eceff1" stroke="#90a4ae"/><text x="75" y="98" fill="#546e7a">prev</text>
+    <rect x="160" y="70" width="70" height="44" rx="8" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/><text x="195" y="98" fill="#0d47a1">1</text>
+    <rect x="280" y="70" width="70" height="44" rx="8" fill="#e3f2fd" stroke="#1565c0"/><text x="315" y="98" fill="#1565c0">2</text>
+    <rect x="400" y="70" width="70" height="44" rx="8" fill="#e3f2fd" stroke="#1565c0"/><text x="435" y="98" fill="#1565c0">3</text>
+    <rect x="520" y="70" width="70" height="44" rx="8" fill="#e3f2fd" stroke="#1565c0"/><text x="555" y="98" fill="#1565c0">4</text>
+    <rect x="640" y="70" width="70" height="44" rx="8" fill="#e3f2fd" stroke="#1565c0"/><text x="675" y="98" fill="#1565c0">5</text>
+  </g>
+  <path d="M 230 92 L 278 92" stroke="#1565c0" stroke-width="2"/>
+  <path d="M 350 92 L 398 92" stroke="#1565c0" stroke-width="2"/>
+  <path d="M 470 92 L 518 92" stroke="#1565c0" stroke-width="2"/>
+  <path d="M 590 92 L 638 92" stroke="#1565c0" stroke-width="2"/>
+  <text x="195" y="140" text-anchor="middle" font-size="12" fill="#1565c0">cur</text>
+  <text x="430" y="172" text-anchor="middle" font-size="13" fill="#37474f">nxt = cur.next；cur.next = prev；prev = cur；cur = nxt</text>
+</svg>
