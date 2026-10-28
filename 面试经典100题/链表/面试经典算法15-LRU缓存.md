@@ -16,7 +16,7 @@ _LeetCode 146_
 
 **示例：**
 
-```
+```cpp
 输入
 ["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"]
 [[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]]
@@ -62,7 +62,7 @@ lRUCache.get(4);    // 返回 4
 
 #### C++
 
-```
+```cpp
 #include <iostream>
 #include <unordered_map>
 
@@ -178,7 +178,7 @@ int main() {
 
 #### Java
 
-```
+```java
 import java.util.*;
 
 class LRUCache {
@@ -281,7 +281,7 @@ class LRUCache {
 
 #### Python
 
-```
+```python
 class LRUCache:
 
     def __init__(self, capacity: int):

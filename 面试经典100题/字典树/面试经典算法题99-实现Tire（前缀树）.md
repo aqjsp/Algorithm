@@ -15,7 +15,7 @@ _LeetCode 208_
 
 **示例：**
 
-```
+```cpp
 输入
 ["Trie", "insert", "search", "search", "startsWith", "insert", "search"]
 [[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]
@@ -68,7 +68,7 @@ trie.search("app");     // 返回 True
 
 #### C++
 
-```
+```cpp
 #include <iostream>
 #include <unordered_map>
 #include <string>
@@ -152,7 +152,7 @@ int main() {
 
 #### Java
 
-```
+```java
 import java.util.HashMap;
 import java.util.Map;
 
@@ -238,7 +238,7 @@ public class Trie {
 
 #### Python
 
-```
+```python
 class TrieNode:
     def __init__(self):
         """

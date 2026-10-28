@@ -14,7 +14,7 @@ _LeetCode 2400_
 
 **示例 1：**
 
-```
+```text
 输入：startPos = 1, endPos = 2, k = 3
 输出：3
 解释：存在 3 种从 1 到 2 且恰好移动 3 步的方法：
@@ -26,7 +26,7 @@ _LeetCode 2400_
 
 **示例 2：**
 
-```
+```text
 输入：startPos = 2, endPos = 5, k = 10
 输出：0
 解释：不存在从 2 到 5 且恰好移动 10 步的方法。
@@ -44,7 +44,7 @@ _LeetCode 2400_
 
    - 如果 `dp[i - 1][j]` 不为 0，表示在上一步可以到达位置 `j - k`。那么可以在当前步向右移动一步到达位置 `j + 1 - k`，或者向左移动一步到达位置 `j - 1 - k`。因此，更新 `dp[i][j + 1]` 和 `dp[i][j - 1]` 的值：
 
-     ```
+     ```cpp
      dp[i][j + 1] = (dp[i][j + 1] + dp[i - 1][j]) % MOD; // 向右移动一步
      dp[i][j - 1] = (dp[i][j - 1] + dp[i - 1][j]) % MOD; // 向左移动一步
      ```
@@ -59,7 +59,7 @@ _LeetCode 2400_
 
 #### C++
 
-```
+```cpp
 class Solution {
 public:
     int numberOfWays(int startPos, int endPos, int k) {
@@ -96,7 +96,7 @@ public:
 
 #### Java
 
-```
+```java
 class Solution {
     public int numberOfWays(int startPos, int endPos, int k) {
         final long MOD = 1000000007;
@@ -132,7 +132,7 @@ class Solution {
 
 #### Python
 
-```
+```python
 class Solution:
     def numberOfWays(self, startPos: int, endPos: int, k: int) -> int:
         MOD = 10**9 + 7

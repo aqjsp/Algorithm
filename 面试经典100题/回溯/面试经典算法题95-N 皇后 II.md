@@ -12,7 +12,7 @@ n 皇后问题 研究的是如何将 `n` 个皇后放置在 `n × n` 的棋盘�
 
 ![](https://cdn.jsdelivr.net/gh/aqjsp/Pictures/queens.jpg)
 
-```
+```text
 输入：n = 4
 输出：2
 解释：如上图所示，4 皇后问题存在两个不同的解法。
@@ -20,7 +20,7 @@ n 皇后问题 研究的是如何将 `n` 个皇后放置在 `n × n` 的棋盘�
 
 **示例 2：**
 
-```
+```text
 输入：n = 1
 输出：1
 ```
@@ -53,7 +53,7 @@ n 皇后问题 研究的是如何将 `n` 个皇后放置在 `n × n` 的棋盘�
 
 #### C++
 
-```
+```cpp
 #include <iostream>
 #include <vector>
 #include <unordered_set>
@@ -113,7 +113,7 @@ int main() {
 
 #### Java
 
-```
+```java
 import java.util.HashSet;
 import java.util.Set;
 
@@ -168,7 +168,7 @@ public class NQueens {
 
 #### Python
 
-```
+```python
 class Solution:
     def totalNQueens(self, n: int) -> int:
         def backtrack(row: int) -> None:
